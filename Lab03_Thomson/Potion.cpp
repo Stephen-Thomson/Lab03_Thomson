@@ -79,7 +79,7 @@ Potion::Potion(Potion&& copy)
 * Postcondition:
 *	Modifies the Strings.
 **************************************************************************************************************/
-Potion& Potion::operator=(Potion& rhs)
+Potion& Potion::operator=(const Potion& rhs)
 {
 	if (this != &rhs)
 	{
@@ -135,6 +135,24 @@ Potion::~Potion()
 {
 
 }
+
+
+/************************************************************************************************************
+* Purpose: Operator Overload char *
+*
+* Precondition:
+*	None
+*
+* Postcondition:
+*	Returns the name of the Potion.
+**************************************************************************************************************/
+Potion::operator char* () const
+{
+	return m_name;
+}
+
+
+
 
 /************************************************************************************************************
 * Purpose: Setter for name String.

@@ -33,7 +33,7 @@ public:
 	String(const String& copy);
 	String(String&& copy);
 	~String();
-	String& operator=(String& rhs);
+	String& operator=(const String& rhs);
 	String& operator=(String&& rhs);
 	operator char* () const;
 	void Display() const;

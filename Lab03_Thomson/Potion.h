@@ -35,9 +35,10 @@ public:
 	Potion(String name, String description, String potency, String cost);
 	Potion(const Potion& copy);
 	Potion(Potion&& copy);
-	Potion& operator=(Potion& rhs);
+	Potion& operator=(const Potion& rhs);
 	Potion& operator=(Potion&& rhs);
 	~Potion();
+	operator char* () const;
 	void setname(String name);
 	void setdescription(String description);
 	void setpotency(String potency);

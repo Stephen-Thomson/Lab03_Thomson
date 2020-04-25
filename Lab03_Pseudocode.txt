@@ -1,0 +1,15 @@
+Lab 03 Pseudocode
+
+Add to String class: Move Managers and Operator Conversion Function.
+Add to Potion class: Move Managers, Drink.
+Create PotionCase class: Pointer to Array of Potions and number of Potions, all managers, GetElements, Insert Potion, Drop(Delete) Potion, Find Potion, Inventory(Display), FillEmpty to fill and Empty Bottle.
+
+Stub:
+Create PotionCase with 5 Potions.
+Display Inventory.
+Create a Potion and add it to the Case.
+Drink a Potion.
+Display Inventory.
+Create Potion to use FillEmpty.
+Display Inventory.
+End Program.

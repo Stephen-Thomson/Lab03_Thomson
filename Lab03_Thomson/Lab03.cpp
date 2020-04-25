@@ -74,7 +74,7 @@ int main()
 	cout << "Cold Resistance Filled the Empty Bottle: " << endl;
 	Mycase.Inventory();
 
-
+	cout << Pot1 << endl;
 
 }
 

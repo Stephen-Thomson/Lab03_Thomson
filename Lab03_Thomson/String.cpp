@@ -111,7 +111,7 @@ String::~String()
 * Postcondition:
 *	Creates the String
 **************************************************************************************************************/
-String& String::operator=(String& rhs)
+String& String::operator=(const String& rhs)
 {
 	if (this != &rhs)
 	{
